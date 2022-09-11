@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techgiant</title>
+    <link rel="shortcut icon" href="./techgiant.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- testimonial js links starts-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- testimonial js links ends -->
+  </head>
+
+  <body>
+    <div id="loader" class="loader-container">
+      <div class="loader">
+        <img src="./loader.gif" width="30%" alt="" />
+      </div>
+    </div>
+
+    <div id="container" style="overflow-x: hidden" class="container">
+      <header id="header">
+        <a href="" class="logo"
+          ><img
+            id="logo-image"
+            src="/techgiant.png"
+            alt=""
+            width="50px"
+            height="auto"
+        /></a>
+        <div class="menu-toggle" id="menu"></div>
+        <nav id="nav">
+          <ul>
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#casestudy">Case Study</a></li>
+            <li><a href="#aboutus">About</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#form">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="clearfix"></div>
+      </header>
+      <section id="homemain" class="homemain">
+        <video autoplay muted loop id="myVideo">
+          <source src="/video.mp4" type="video/mp4" />
+        </video>
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+          "
+        >
+          <h2 style="color: #fff; font-size: 75px; margin: 0px 20px">
+            Building the future.
+          </h2>
+        </div>
+      </section>
+
+      <!-- our-services-start -->
+      <section id="services">
+        <div class="services-cards">
+          <div><h1>OUR SERVICES</h1></div>
+          <div class="cards">
+            <div class="s-card reveal">
+              <div class="icon-postline">
+                <div class="icon">
+                  <img src="/images/service-icons/web-dev.png" alt="" />
+                </div>
+                <div class="postline">Web Development</div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eveniet placeat repellat eum laudantium quisquam aut aliquid
+                  doloribus quam saepe consequuntur, rerum facilis, eius amet
+                  aliquam voluptatum? Similique minus ipsam facere!
+                </p>
+              </div>
+              <div class="btn">
+                <button>Show more</button>
+              </div>
+            </div>
+
+            <div class="s-card reveal">
+              <div class="icon-postline">
+                <div class="icon">
+                  <img src="/images/service-icons/web-dev.png" alt="" />
+                </div>
+                <div class="postline">Graphics Design</div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eveniet placeat repellat eum laudantium quisquam aut aliquid
+                  doloribus quam saepe consequuntur, rerum facilis, eius amet
+                  aliquam voluptatum? Similique minus ipsam facere!
+                </p>
+              </div>
+              <div class="btn">
+                <button>Show more</button>
+              </div>
+            </div>
+
+            <div class="s-card reveal">
+              <div class="icon-postline">
+                <div class="icon">
+                  <img src="/images/service-icons/web-dev.png" alt="" />
+                </div>
+                <div class="postline">Business Process Reengineering</div>
+              </div>
+              <div id="content" class="content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eveniet placeat repellat eum laudantium quisquam aut aliquid
+                  doloribus quam saepe consequuntur, rerum facilis, eius amet
+                  aliquam voluptatum? Similique minus ipsam facere!
+                </p>
+              </div>
+              <div id="btn" class="btn">
+                <button>Show more</button>
+              </div>
+            </div>
+
+            <div class="s-card reveal">
+              <div class="icon-postline">
+                <div class="icon">
+                  <img src="/images/service-icons/web-dev.png" />
+                </div>
+                <div class="postline">Data Base Development</div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eveniet placeat repellat eum laudantium quisquam aut aliquid
+                  doloribus quam saepe consequuntur, rerum facilis, eius amet
+                  aliquam voluptatum? Similique minus ipsam facere!
+                </p>
+              </div>
+              <div class="btn">
+                <button>Show more</button>
+              </div>
+            </div>
+
+            <div class="s-card reveal">
+              <div class="icon-postline">
+                <div class="icon">
+                  <img src="/images/service-icons/web-dev.png" alt="" />
+                </div>
+                <div class="postline">Research Paper Development</div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eveniet placeat repellat eum laudantium quisquam aut aliquid
+                  doloribus quam saepe consequuntur, rerum facilis, eius amet
+                  aliquam voluptatum? Similique minus ipsam facere!
+                </p>
+              </div>
+              <div class="btn">
+                <button>Show more</button>
+              </div>
+            </div>
+
+            <div class="s-card reveal">
+              <div class="icon-postline">
+                <div class="icon">
+                  <img src="/images/service-icons/web-dev.png" alt="" />
+                </div>
+                <div class="postline">Software Quality insurance</div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eveniet placeat repellat eum laudantium quisquam aut aliquid
+                  doloribus quam saepe consequuntur, rerum facilis, eius amet
+                  aliquam voluptatum? Similique minus ipsam facere!
+                </p>
+              </div>
+              <div class="btn">
+                <button>Show more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- our-services-end -->
+
+      <!-- case study -->
+      <section id="casestudy" class="container-CS">
+        <h1 style="font-size: 42px; text-align: center">
+          We love transforming product
+          <br />
+          ideas to digital realities.
+        </h1>
+        <section  class="case-study">
+          <div class="case-study-container">
+            <div class="case-1">
+              <div class="content">
+                <b>MOBILE APP</b>
+
+                <h2>E-commerce App for online Shopping</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequatur excepturi sint adipisci dolores dolorem quia
+                  necessitatibus officia quae in? Incidunt quia maiores odio
+                  quod fuga praesentium animi? Natus, nihil non?
+                </p>
+                <button>VIEW CASE STUDY</button>
+              </div>
+              <div class="image revealimage">
+                <img src="./images/case-study/e-commerce.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="case-2">
+              <div class="image revealimage">
+                <img src="./images/case-study/software.svg" alt="" />
+              </div>
+              <div class="content">
+                <b>WEBSITE</b>
+                <h2>Software development website</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequatur excepturi sint adipisci dolores dolorem quia
+                  necessitatibus officia quae in? Incidunt quia maiores odio
+                  quod fuga praesentium animi? Natus, nihil non?
+                </p>
+                <button>VIEW CASE STUDY</button>
+              </div>
+            </div>
+
+            <div class="case-3">
+              <div class="content">
+                <b>MOBILE APP</b>
+                <h2>Online Taxi booking service</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequatur excepturi sint adipisci dolores dolorem quia
+                  necessitatibus officia quae in? Incidunt quia maiores odio
+                  quod fuga praesentium animi? Natus, nihil non?
+                </p>
+                <button>VIEW CASE STUDY</button>
+              </div>
+              <div class="image revealimage">
+                <img src="./images/case-study/taxi-ser.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- case study -->
+
+      <!-- testimonial -->
+      <section id="testimonial" class="testimonial">
+        <div class="items">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">
+                <img
+                  src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png"
+                />
+              </h4>
+
+              <div class="template-demo">
+                <p>
+                  Online reviews can make or break a customer's decision to make
+                  a purchase. Read about these customer review sites where your
+                  customers'
+                </p>
+              </div>
+
+              <hr />
+
+              <div class="row">
+                <div class="col-sm-2">
+                  <img
+                    class="profile-pic"
+                    src="https://img.icons8.com/bubbles/100/000000/edit-user.png"
+                  />
+                </div>
+
+                <div class="col-sm-10">
+                  <div class="profile">
+                    <h4 class="cust-name">Delbert Simonas</h4>
+                    <p class="cust-profession">Store Owner</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">
+                <img
+                  src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png"
+                />
+              </h4>
+
+              <div class="template-demo">
+                <p>
+                  When you think of Apple you automatically think expensive if
+                  your anything like me. When purchasing this laptop I was
+                  skeptical on laptops i purchased.
+                </p>
+              </div>
+
+              <hr />
+
+              <div class="row">
+                <div class="col-sm-2">
+                  <img
+                    class="profile-pic"
+                    src="https://img.icons8.com/bubbles/100/000000/edit-user.png"
+                  />
+                </div>
+
+                <div class="col-sm-10">
+                  <div class="profile">
+                    <h4 class="cust-name">Tikoh Amin</h4>
+                    <p class="cust-profession">Salon Owner</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">
+                <img
+                  src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png"
+                />
+              </h4>
+
+              <div class="template-demo">
+                <p>
+                  I&rsquo;ve wanted a MacBook for a while now because of the
+                  build quality and the simplicity of the OS. I spend an average
+                  6 hours a day using it for college and the battery still has a
+                  fair.
+                </p>
+              </div>
+
+              <hr />
+
+              <div class="row">
+                <div class="col-sm-2">
+                  <img
+                    class="profile-pic"
+                    src="https://img.icons8.com/bubbles/100/000000/edit-user.png"
+                  />
+                </div>
+
+                <div class="col-sm-10">
+                  <div class="profile">
+                    <h4 class="cust-name">Malachi Lensing</h4>
+                    <p class="cust-profession">Marketing Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">
+                <img
+                  src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png"
+                />
+              </h4>
+
+              <div class="template-demo">
+                <p>
+                  This MacBook has excellent processing speed. The screen is
+                  crystal clear and I really enjoy the touchbar. I set up the
+                  fingerprint reader.
+                </p>
+              </div>
+
+              <hr />
+
+              <div class="row">
+                <div class="col-sm-2">
+                  <img
+                    class="profile-pic"
+                    src="https://img.icons8.com/bubbles/100/000000/edit-user.png"
+                  />
+                </div>
+
+                <div class="col-sm-10">
+                  <div class="profile">
+                    <h4 class="cust-name">Christian Isla</h4>
+                    <p class="cust-profession">Android Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">
+                <img
+                  src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png"
+                />
+              </h4>
+
+              <div class="template-demo">
+                <p>
+                  For the last 10 years, I have owned an old Gateway laptop.
+                  Although it was amazing and lasted me, it was time for an
+                  upgrade. I own an Apple phone so I decided to look into a
+                  computer.
+                </p>
+              </div>
+
+              <hr />
+
+              <div class="row">
+                <div class="col-sm-2">
+                  <img
+                    class="profile-pic"
+                    src="https://img.icons8.com/bubbles/100/000000/edit-user.png"
+                  />
+                </div>
+
+                <div class="col-sm-10">
+                  <div class="profile">
+                    <h4 class="cust-name">Lori Charles</h4>
+                    <p class="cust-profession">Sales manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial -->
+
+      <!-- about us -->
+      <section id="aboutus" class="aboutus">
+        <h1>ABOUT US</h1>
+        <div class="content-store">
+          <div class="left">
+            <div class="wrap-text">
+              <h3>who we are ?</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                repellendus et consequuntur sint numquam. Obcaecati, veritatis
+                iure quae accusamus quasi quam delectus? Velit vitae non
+                architecto inventore nostrum officiis at.
+              </p>
+            </div>
+          </div>
+          <div class="right"></div>
+        </div>
+      </section>
+      <!-- about us -->
+
+      <!-- contact-form-starts -->
+      <section id="form">
+        <div class="form-container">
+          <form id="contact">
+            <h3>Contact Form</h3>
+            <h4>Contact us for custom quote</h4>
+            <fieldset>
+              <input
+                placeholder="Your name"
+                type="text"
+                tabindex="1"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <input
+                placeholder="Your Email Address"
+                type="email"
+                tabindex="2"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <input
+                placeholder="Your Phone Number (optional)"
+                type="tel"
+                tabindex="3"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <input
+                placeholder="Your Web Site (optional)"
+                type="url"
+                tabindex="4"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <textarea
+                placeholder="Type your message here...."
+                tabindex="5"
+                required
+              ></textarea>
+            </fieldset>
+            <fieldset>
+              <button name="submit" type="submit" id="contact-submit">
+                Submit
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+      <!-- contact-form-ends -->
+
+      <footer>
+        <div class="bg"></div>
+        <div class="content">
+          <div class="logo"><img src="./techgiant.png" alt="" /></div>
+          <div class="titles">
+            <ul>
+              <li><a href="/index.html" class="active">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#casestudy">Case Study</a></li>
+              <li><a href="#aboutus">About</a></li>
+              <li><a href="#testimonial">Testimonial</a></li>
+              <li><a href="#form">Contact</a></li>
+            </ul>
+          </div>
+          <div class="social-icons">
+            <div><img src="./images/footer/fb.png" alt="" /></div>
+            <div><img src="./images/footer/instagram.png" alt="" /></div>
+            <div><img src="./images/footer/youtube.png" alt="" /></div>
+          </div>
+          <div class="copyright">
+            <p>Copyright &copy 2022 All rights reserved. Techgiant</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+          $("menu-toggle").toggleClass("active");
+          $("nav").toggleClass("active");
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+      function togglemenu() {
+        var togmenu = document.querySelector(".toggle");
+        var togavairo = document.querySelector(".avairo");
+        togmenu.classList.toggle("active");
+        togavairo.classList.toggle("active");
+      }
+    </script>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
