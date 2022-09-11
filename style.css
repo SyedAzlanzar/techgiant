@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&family=Poppins:wght@200;300;500;600;700;900&display=swap");
 body {
   margin: 0;
@@ -157,7 +158,7 @@ body {
   }
 }
 .container-CS {
-  padding: 100px 0;
+  padding-top: 80px;
 }
 .container-CS .case-study {
   display: flex;
@@ -730,7 +731,7 @@ footer .content .copyright p {
     align-items: center;
   }
   footer .content .logo img {
-    width: 60%;
+    width: 20%;
   }
   footer .content .titles {
     margin: 25px 0;
@@ -922,7 +923,7 @@ nav ul li a:hover {
     color: #ea2d4f;
   }
   .menu-toggle:before {
-    content: "\f0c9";
+    content: "☰";
     line-height: 40px;
   }
   .menu-toggle.active:before {
@@ -971,8 +972,5 @@ nav ul li a:hover {
   }
   #header.active {
     background: #fff !important;
-  }
-  .logo img {
-    width: 120px !important;
   }
 }/*# sourceMappingURL=style.css.map */

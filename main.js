@@ -136,6 +136,16 @@ $(document).ready(function () {
 
 
 
+// onclick navbar hidden
+const navbar= document.getElementById("nav");
+const a_tag= document.querySelectorAll(".anchor");
+
+for(var i = 0; i < a_tag.length;i++ ){
+  a_tag[i].addEventListener('click' , () =>{
+    navbar.classList.remove('active')
+  })
+}
+
 
 
 
